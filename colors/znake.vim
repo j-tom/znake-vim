@@ -266,8 +266,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("MatchParen", "", s:black, "reverse")
   call <SID>X("Folded", s:comment, s:black, "")
   call <SID>X("FoldColumn", "", s:black, "")
-  call <SID>X("StatusLine", s:black, s:white, "")
-  call <SID>X("StatusLineNC", s:black, s:grey1, "")
+  call <SID>X("StatusLine", s:white, s:black, "")
+  call <SID>X("StatusLineNC", s:grey1, s:black, "")
   if version >= 700
     call <SID>X("Cursor", "", s:pink, "none")
     call <SID>X("LineNr", s:linenr, "", "none")
